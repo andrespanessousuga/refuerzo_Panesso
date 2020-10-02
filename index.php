@@ -12,9 +12,9 @@
         <h1>TIENDA.COM</h1>
         <hr>
     </header>  
-    <main>
+    <main class="bg-dark text-white">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-4">
                     <form action="">
                         
@@ -53,7 +53,8 @@
                             <input type="text" class="form-control" id="direcion">
                       
                         </div>
-   
+
+                        <button type="submit" class="btn btn-primary btn-block">Registrar</button>
                     </form>
                 </div>
             </div>
